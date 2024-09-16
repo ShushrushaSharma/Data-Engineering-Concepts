@@ -1,0 +1,27 @@
+DATA WAREHOUSING: system used for reporting and data analysis and is considered a core component of business intelligence. Data warehouses are central repositories of integrated data from one or more disparate sources.
+
+--> query and analysis
+
+OPERATIONAL DATABASE
+
+PROS
+
+--> Excellent for operations
+--> No Redundancy
+--> Fast insert and update
+
+CONS
+
+--> Too slow for analytics
+--> Too many joins
+--> Hard to understand
+
+OLTP: Online Transactional Processing
+
+OLAP: Online Analytical Processing (STAR SCHEMA)
+
+FACT TABLE: Stores quantitative data for analysis. These tables contain the metrics and measures of business processes, often referred to as "facts."
+
+DIMENSIONAL TABLE: Stores descriptive attributes related to dimensions. These tables provide context to the measures in the fact table.
+
+--> The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries. The star schema gets its name from the physical model's resemblance to a star shape with a fact table at its center and the dimension tables surrounding it representing the star's points.

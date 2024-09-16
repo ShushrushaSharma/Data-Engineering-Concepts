@@ -1,0 +1,47 @@
+DATA MODEL: describe real world properties and relations
+
+--> important to organize data
+--> organized data determines later data use
+--> begin prior to build applications, business logic and analytics
+--> iterative process
+
+RELATIONAL MODEL: data in tables, with unique key identifying each row
+
+RELATIONAL DATABASE: software system to maintain different data models
+
+--> MySQL
+--> PostgreSQL
+--> Oracle
+--> MSSQL
+
+--> easy to use
+--> ability to joins
+--> aggregations and analytics
+--> smaller data volumes
+--> flexibility of queries
+--> ACID
+
+DATABASE SCHEMA: collection of tables
+
+TABLE/RELATIONS: group of rows sharing the same labeled elements
+
+ACID PROPERTIES:
+
+--> Atomicity
+--> Consistency
+--> Isolation
+--> Durability
+
+WHEN NOT TO USE RELATIONAL DATABASE:
+
+--> large amount of data
+--> different type of formats
+--> need flexible schema
+--> need high availability
+--> need horizontal scaling
+
+POSTGRESQL
+
+--> open source relational database system
+--> uses and builds on language
+
